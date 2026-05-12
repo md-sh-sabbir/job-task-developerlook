@@ -1,39 +1,3 @@
-// import React from "react";
-// import { GoArrowUpRight } from "react-icons/go";
-// import whatsNew from "../assets/whatsNew.jpg";
-
-// const WhatsNew = () => {
-//   return (
-//     <div className="mx-30 my-10">
-
-//       <div className="flex justify-between items-center pb-5">
-//         <div>
-//           <h1 className="text-7xl font-semibold">
-//             What's{" "}
-//             <img src={whatsNew} alt="" className="w-20 rounded-2xl inline" />{" "}
-//             New
-//           </h1>
-//         </div>
-//         <div>
-//           <button className="hidden lg:flex px-5 py-2.5 bg-[#EFEEEC] text-black text-lg font-medium rounded-full items-center gap-2 hover:bg-[#7fffd4] hover:scale-105 transition-all duration-200">
-//             Explore More Thoughts
-//             <GoArrowUpRight size={18} />
-//           </button>
-//         </div>
-//       </div>
-//       <hr className="text-gray-300" />
-
-//       <div>
-//         <div>
-//             <img src="" alt="" />
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default WhatsNew;
-
 import React, { useRef } from "react";
 import { GoArrowUpRight } from "react-icons/go";
 import { LuClock3 } from "react-icons/lu";
